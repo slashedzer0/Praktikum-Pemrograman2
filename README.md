@@ -1,1 +1,1 @@
-### PraktikumPemrograman2 - Java (Semester 3)
+### Praktikum Pemrograman 2 (Semester 3)
