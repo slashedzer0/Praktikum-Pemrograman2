@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.doni.pemrograman2.pertemuan7.Registration">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="12" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="554" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3b5d0" class="javax.swing.JLabel" binding="namaLengkapLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nama Lengkap"/>
+        </properties>
+      </component>
+      <component id="b1a01" class="javax.swing.JTextField" binding="isiNamaLengkap">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6ec6b" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="cb5df" class="javax.swing.JTextField" binding="isiKataSandi">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7e73b" class="javax.swing.JLabel" binding="jenisKelaminLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Jenis Kelamin"/>
+        </properties>
+      </component>
+      <component id="bf9ee" class="javax.swing.JRadioButton" binding="lakiLakiRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Laki-laki"/>
+        </properties>
+      </component>
+      <component id="ed459" class="javax.swing.JLabel" binding="TTLLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TTL"/>
+        </properties>
+      </component>
+      <component id="7d85d" class="javax.swing.JTextField" binding="isiTempatLahir">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cd50a" class="javax.swing.JComboBox" binding="pilihBulan">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="(Pilih satu)"/>
+            <item value="Januari"/>
+            <item value="Februari"/>
+            <item value="Maret"/>
+            <item value="April"/>
+            <item value="Mei"/>
+            <item value="Juni"/>
+            <item value="Juli"/>
+            <item value="Agustus"/>
+            <item value="September"/>
+            <item value="Oktober"/>
+            <item value="November"/>
+            <item value="Desember"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9bbb2" class="javax.swing.JSpinner" binding="pilihTanggal">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="91e7f" class="javax.swing.JSpinner" binding="pilihTahun">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d59a" class="javax.swing.JLabel" binding="jabatanLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Jabatan"/>
+        </properties>
+      </component>
+      <component id="bf4d8" class="javax.swing.JComboBox" binding="pilihJabatan">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="(Pilih satu)"/>
+            <item value="Manager"/>
+            <item value="Direktur"/>
+            <item value="Staff"/>
+            <item value="Supervisor"/>
+            <item value="Produser"/>
+            <item value="Customer Service"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6338e" class="javax.swing.JRadioButton" binding="perempuanRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Perempuan"/>
+        </properties>
+      </component>
+      <component id="ee77e" class="javax.swing.JLabel" binding="bahasaLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Bahasa"/>
+        </properties>
+      </component>
+      <component id="59a8c" class="javax.swing.JCheckBox" binding="indonesiaCheckBox" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Indonesia"/>
+        </properties>
+      </component>
+      <component id="2eddc" class="javax.swing.JCheckBox" binding="inggrisCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inggris"/>
+        </properties>
+      </component>
+      <component id="a7aed" class="javax.swing.JCheckBox" binding="mandarinCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mandarin"/>
+        </properties>
+      </component>
+      <component id="14b55" class="javax.swing.JCheckBox" binding="lainnyaCheckBox" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lainnya"/>
+        </properties>
+      </component>
+      <component id="66655" class="javax.swing.JTextField" binding="isiBahasa">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="11e5a" class="javax.swing.JLabel" binding="alamatLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Alamat"/>
+        </properties>
+      </component>
+      <component id="cb7b0" class="javax.swing.JTextArea" binding="isiAlamat">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cd6a8" class="javax.swing.JLabel" binding="skillLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Skill"/>
+        </properties>
+      </component>
+      <component id="77c83" class="javax.swing.JSlider" binding="aturLevelKeahlian">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cd768" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
